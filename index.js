@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var strData = ""
 
-fs.readFile('./JPMCTest.CSV', function (err, data) {
+fs.readFile('./financialData/JPMCTest.CSV', function (err, data) {
       if (err) throw err;
         // if stringData.match(/\n/g) != nil {
             // console.log(data.match(/\n/g))
